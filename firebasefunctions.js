@@ -269,6 +269,7 @@ $(function() {
 		{
 			console.log("Authenticated successfully with payload:", authData);
 			$("#login-btn").parent().find('.status').html("You are logged in as:" + authData.uid).show();
+            showFoo();
         }
 	}
 	
@@ -302,7 +303,15 @@ $(function() {
         var password = $("#login-password").val();
         loginUser(email,password,loginCallback);
     });
-	
+	var el = document.getElementById('foo');
+ 
+
+
+            function showFoo() {
+              // window.location = "https://tenajeros-mlab-students.herokuapp.com";
+
+              return false;
+            }
 	//Handling Signup process
     $("#signup-btn").on('click', function() {
 
@@ -312,6 +321,7 @@ $(function() {
             email: email,
             password: password
         },
+            
 
         function(error, userData) {
             if (error) {
@@ -324,11 +334,12 @@ $(function() {
                     email: email,
                     password: password,
                 },signupLoginCallback);
-
+                showFoo();
             }
         });
     });
-	
+
+
 	//Pushing new items to Firebase list. This is called when a user click on "AddNewItem Button"
     var addListItem = function(content) {
         var postsRef = listRef;
@@ -389,6 +400,7 @@ $(function() {
             } else {
                 console.log("Successfully added user data for");
                 $(".nav.navbar-nav > li > a[data-target='#login']").click();
+                showFoo();
             }
         });
     }

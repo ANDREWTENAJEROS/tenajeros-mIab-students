@@ -1,0 +1,22 @@
+{
+  "name": "tenajeros-mIab-students",
+  "version": "1.0.0",
+  "description": "tenajeros-mIab-students",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewtenajeros/tenajeros-mIab-students.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewtenajeros/tenajeros-mIab-students/issues"
+  },
+  "homepage": "https://github.com/andrewtenajeros/tenajeros-mIab-students#readme",
+  "dependencies": {
+    "firebase": "^4.5.2"
+  }
+}

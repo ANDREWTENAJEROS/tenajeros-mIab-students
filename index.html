@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+         
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,7 +23,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button><a class="navbar-brand" href>Realtime Shared Sticky Notes</a>
+                    </button><a class="navbar-brand" href>STQA Student List</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav pull-right">
@@ -33,7 +34,7 @@
                             <a data-target="#register" href>Signup</a>
                         </li>
                         <li>
-                            <a data-target="#lists" href>Shared List</a>
+                            <a data-target="#lists" href>Student List</a>
                         </li>
                         <li>
                             <a id="logout" href>Logout</a>
@@ -74,17 +75,8 @@
             <div class="status alert alert-info hide"></div>
         </div>
         <div class="container tab hide" id="lists">
-            <div class="status alert alert-info hide"></div><br>
-            <h3>
-                Add Items to the Shared List
-            </h3>
-            <p>
-                <textarea type="text" id="listitem" placeholder="Add content that you want to add to your list"></textarea><br>
-                <a id="addItemToList" class="btn btn-success">Add it to your list</a>
-            </p>
-            <hr>
-            <a class="btn btn-info" id="sort-items">View Aligned (for OCD fellows!)</a>
-            <ul id="sharedlist" class="sharedlist" data-widget-class="sharedlist"></ul>
+
+            <iframe src="https://tenajeros-mlab-students.herokuapp.com/" height="800" width="1000"></iframe>
         </div><!-- Bootstrap core JavaScript
     ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
