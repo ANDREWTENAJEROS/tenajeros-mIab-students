@@ -1,21 +1,21 @@
 {
-  "name": "tenajeros-mIab-students",
+  "name": "tenajeros-mlab-student",
   "version": "1.0.0",
-  "description": "tenajeros-mIab-students",
+  "description": "tenajeros-mlab-student",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrewtenajeros/tenajeros-mIab-students.git"
+    "url": "git+https://github.com/andrewtenajeros/tenajeros-mlab-student.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andrewtenajeros/tenajeros-mIab-students/issues"
+    "url": "https://github.com/andrewtenajeros/tenajeros-mlab-student/issues"
   },
-  "homepage": "https://github.com/andrewtenajeros/tenajeros-mIab-students#readme",
+  "homepage": "https://github.com/andrewtenajeros/tenajeros-mlab-student#readme",
   "dependencies": {
     "firebase": "^4.5.2"
   }
